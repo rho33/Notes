@@ -25,7 +25,7 @@ by Rishi K Narange
 - Once a strategy goes live, human judgement is generally limited in day-to-day management.
 - Strategies exist on a spectrum between fully systematic and fully discretionary.
 - Typical structure of quantitative system:
-    ![f](https://gdurl.com/GipZ)
+    ![f](../images/quant-structure.png)
 
 ## Chapter 3. Alpha Models: How Quants Make Money
 - Alpha models are "designed to time the selection and/or sizing of portfolio holdings. They hold as a core premise that no instrument is inherently good or bad, and therefore no instrument is worth always owning or perpetually ignoring."

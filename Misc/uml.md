@@ -19,7 +19,7 @@
 
 ### Class Diagram:  
 <!-- - <img src='../../images/uml-class-example.png' align='left' width=40%><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
-![image](../../images/uml-class-example.png)  
+![image](../images/uml-class-example.png)  
 
 - displayed as rectangles divided into (horizontal) compartments
     - 1st compartment = name of class
@@ -31,7 +31,7 @@
         - \# Protected
         - ~ Package
 ### Relationships
-![image](../../images/uml-associations.png)  
+![image](../images/uml-associations.png)  
 #### Dependency
 - typically (but not always) implies that an object accepts another object as a method parameter, instantiates, or uses another object. A dependency is very much implied by an association.
 - To quote from the 3rd edition of UML Distilled (now just out) "a dependency exists between two elements if changes to the definition of one element (the supplier) may cause changes to the other (the client)". (https://martinfowler.com/bliki/DependencyAndAssociation.html)
@@ -40,7 +40,7 @@
 - almost always implies that one object has the other object as a field/property/attribute (terminology differs).
 - arrows describe navigability
     - if B is navigable from A (usually meaning A has B as an attribute) then the arrow will point at B (see 2nd example below).
-![image](../../images/uml-navigability.png)  
+![image](../images/uml-navigability.png)  
 
 - association types:
     - bi-directional
@@ -55,7 +55,7 @@
             - "owns"
             - the composed (contained) object cannot exist without the other entity (container)
             - e.g. company and accounts  
-![image](../../images/association-composition-aggregation.jpg)  
+![image](../images/association-composition-aggregation.jpg)  
 
         - In Aggregation (that is not composition), both the entries can survive individually which means ending one entity will not effect the other entity
     - reflexive - objects of same class related to each other
